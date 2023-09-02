@@ -1,0 +1,34 @@
+.chatbox{
+    height:70vh;
+    background-color: rgb(219, 219, 219);
+    position: relative;
+    overflow-y: scroll;
+overflow-x: hidden;
+}
+
+.inputtext{
+    position: absolute;
+    bottom: -15px;
+     width: 100%;
+    /* border: 2px solid grey; */
+}
+
+.msg{
+    font-size: 20px;
+}
+
+.sendmsgicon{
+    position: absolute;
+    bottom: 1.5px;
+    cursor: pointer;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    right: -2px;
+    background-color:#d76258;
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+
+}

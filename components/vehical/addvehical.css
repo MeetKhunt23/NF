@@ -1,0 +1,121 @@
+#specifyColor{
+    accent-color: #d76258;
+}
+
+.title{
+    color: #d76258
+}
+
+.radiobuttons{
+    display: flex;
+    align-items: center;
+
+}
+
+#VehicalColor{
+    accent-color: #d76258 
+}
+.nice-select{
+   display: none;
+}
+
+.selectcars{
+    width: 60%;
+    padding: 10px;
+    background: #efefef;
+    border-radius: 5px;
+    border : 0px
+}
+.yearbrandselect{
+    display: flex;
+    align-items: center;
+}
+
+.selectbrand{
+    width: 60%;
+    padding: 10px;
+    background: #efefef;
+    border-radius: 5px; 
+    border : 0px
+}
+.modelprice{
+    display: flex;
+    align-items: center;
+}
+
+.feature{
+    background: #efefef;
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.titall{
+    background: #efefef;
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.add{
+    width: 17%;
+    background: #d76258;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -9px;
+    margin-right: 10px;
+}
+
+.addbuttonvehicle{
+    justify-content: end;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: -47px;
+}
+
+.textarea{
+    border : 0px;
+    background : #efefef ;
+}
+
+.uploadimage{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.uploadicon{
+    color: #d76258;
+}
+
+.uploadtext{
+    font-size: 18px;
+    color: #d76258;
+}
+.addmain_div{
+    width: 50%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 3px solid #d76258;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sellvehiclebtn{
+    width: 35%;
+    padding: 5px;
+    background: #d76258;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}

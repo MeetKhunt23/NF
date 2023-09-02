@@ -1,0 +1,727 @@
+.editprofile {
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid #d76258;
+    padding: 20px 20px;
+    border-radius: 10px 10px;
+    margin-bottom: 150px;
+    /* position: absolute;
+    top: 20%; */
+  }
+  
+  .eidtprofileheader {
+    background-color: #d76258;
+    width: 70%;
+    margin-left: 5%;
+    border-radius: 0px 0px 220px 220px;
+    font-size: 22px;
+    padding: 20px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .withwhatoptions {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+    justify-content: space-around;
+    position: absolute;
+    top: 10%;
+  }
+  
+  .optionbtns {
+    width: 40%;
+  }
+  
+  .optionbtns:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .profileimg {
+    width: 23%;
+    margin-left: 37%;
+    border: 2px solid #d76258;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px;
+  }
+  
+  .fieldname {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    width: 85%;
+    margin-left: 7%;
+  }
+  
+  .updateprofile {
+    width: 50%;
+    background-color: #d76258;
+    border: 2px solid white;
+    margin-top: 20px;
+    height: 50px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+  /* .updatebtn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+  } */
+  
+  .input-field {
+    width: 85%;
+    margin-left: 7%;
+  }
+  
+  .detail-con {
+    width: 60%;
+    margin-left: 15%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: 2px solid #42c366;
+    padding: 30px 30px;
+    border-radius: 20px 20px;
+  }
+  
+  .con {
+    /* border: 2px solid red; */
+    width: 53%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #42c366;
+    flex-direction: column;
+  }
+  
+  .con-1 {
+    border-right: 2px solid #42c366;
+  }
+  
+  .termsandconditions {
+    color: rgb(17, 17, 17);
+    display: inline;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  
+  .termsandconditions:hover {
+    color: rgb(10, 34, 255);
+  }
+  
+  
+  
+  p {
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  
+  .termsandconditionscontent {
+    margin-top: 35px;
+  }
+  
+  .packagecontainer-1 {
+    width: 60%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 80px 80px;
+    padding: 20px 20px;
+    background-image: linear-gradient(90deg,#e62490,#c8e3fa
+    );
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+  
+  .packagecontainer-1:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  .packagecontainer-2:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  .packagecontainer-3:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  
+  .packagecontainer-2 {
+    width: 60%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 80px 80px;
+    padding: 20px 20px;
+    background-image: linear-gradient(180deg,#007cde,#01e9bd
+    );
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+  
+  .packagecontainer-3 {
+    width: 60%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 80px 80px;
+    padding: 20px 20px;
+    background-image: linear-gradient(180deg,#ff849c,#ffce9f
+    );
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+  
+  .packagecontainer1 {
+    width: 33%;
+  }
+  
+  .packagecontainer2 {
+    width: 33%;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .packagecontainer3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .packageimg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .packagevaladity {
+    height: 50%;
+    margin-top: 13px;
+  }
+  
+  .selectplandiv {
+    /* width: 60%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .h3placeadd {
+    margin-top: 25px;
+  }
+  
+  .subsasdealerbtn {
+    width: 60%;
+    background-color: #d76258;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px 15px;
+    cursor: pointer;
+  }
+  
+  .subsasdealerbtn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid #d76258;
+    font-weight: 500;
+  }
+  
+  .subsasdealerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vehicleaddmaindiv {
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid rgb(196, 194, 194);
+    padding: 20px 20px;
+    box-shadow: 5px 10px 15px #888888;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+  }
+  
+  .packageselect {
+    display: flex;
+    width: 25%;
+    padding: 10px 10px;
+    color: white;
+    background-color: #42c366;
+    position: absolute;
+    top: 0px;
+    right: 55px;
+    border-radius: 0px 0px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    display: none;
+  }
+  
+  .packagecontainer-3:hover  .packageselect{
+    display: flex;
+  }
+  
+  .packagecontainer-2:hover  .packageselect{
+    display: flex;
+  }
+  
+  .packagecontainer-1:hover  .packageselect {
+    display: flex;
+  }
+  
+  /* .golive{
+    position: absolute;
+    top: -320px;
+    left:-750px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+    color: #d76258;
+    border: 2px solid green;
+    box-shadow: 5px 8px 8px #d76258;
+  } */
+  
+  #custom-switch{
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+  
+    /* background-color: green; */
+  
+  }
+  
+  .form-control{
+    padding: 15px;
+    border: none;
+    background-color: #efefef
+  }
+  
+  .profileimage{
+    width: 100%;
+  }
+
+  .myprofilepic{
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+  }
+
+  .editprofile {
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid grey;
+    padding: 20px 20px;
+    border-radius: 10px 10px;
+    margin-bottom: 150px;
+    /* position: absolute;
+    top: 20%; */
+  }
+  
+  .eidtprofileheader {
+    background-color: #42c366;
+    width: 70%;
+    margin-left: 5%;
+    border-radius: 0px 0px 220px 220px;
+    font-size: 22px;
+    padding: 20px 20px;
+    color: white;
+  }
+  
+  .withwhatoptions {
+    display: flex;
+    margin-left: 15%;
+    width: 70%;
+    justify-content: space-around;
+    position: absolute;
+    top: 10%;
+  }
+  
+  .optionbtns {
+    width: 40%;
+  }
+  
+  .optionbtns:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .profileimg {
+    width: 23%;
+    margin-left: 37%;
+    border: 2px solid #42c366;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px;
+  }
+  
+  .fieldname {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    width: 85%;
+    margin-left: 7%;
+  }
+  
+  .updatebtn {
+    width: 50%;
+    background-color: #42c366;
+    border: 2px solid white;
+    margin-top: 20px;
+    height: 50px;
+  }
+  
+  .updatebtn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+  }
+  
+  .input-field {
+    width: 85%;
+    margin-left: 7%;
+  }
+  
+  .detail-con {
+    width: 60%;
+    margin-left: 15%;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: 2px solid #42c366;
+    padding: 30px 30px;
+    border-radius: 20px 20px;
+  }
+  
+  .con {
+    /* border: 2px solid red; */
+    width: 53%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #42c366;
+    flex-direction: column;
+  }
+  
+  .con-1 {
+    border-right: 2px solid #42c366;
+  }
+  
+  .termsandconditions {
+    color: rgb(17, 17, 17);
+    display: inline;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  
+  .termsandconditions:hover {
+    color: rgb(10, 34, 255);
+  }
+  
+  
+  
+  p {
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  
+  .termsandconditionscontent {
+    margin-top: 35px;
+  }
+  
+  .packagecontainer-1 {
+    width: 60%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 80px 80px;
+    padding: 20px 20px;
+    background-image: linear-gradient(90deg,#e62490,#c8e3fa
+    );
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+  
+  .packagecontainer-1:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  .packagecontainer-2:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  .packagecontainer-3:hover {
+    scale: 1.1;
+    transition: 0.5s;
+  }
+  
+  .packagecontainer-2 {
+    width: 60%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 80px 80px;
+    padding: 20px 20px;
+    background-image: linear-gradient(180deg,#007cde,#01e9bd
+    );
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+  
+  .packagecontainer-3 {
+    width: 60%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    border-radius: 80px 80px;
+    padding: 20px 20px;
+    background-image: linear-gradient(180deg,#ff849c,#ffce9f
+    );
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+  }
+  
+  .packagecontainer1 {
+    width: 33%;
+  }
+  
+  .packagecontainer2 {
+    width: 33%;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .packagecontainer3 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .packageimg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .packagevaladity {
+    height: 50%;
+    margin-top: 13px;
+  }
+  
+  .selectplandiv {
+    /* width: 60%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .h3placeadd {
+    margin-top: 25px;
+  }
+  
+  .subsasdealerbtn {
+    width: 60%;
+    background-color: #d76258;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    border-radius: 15px 15px;
+    cursor: pointer;
+  }
+  
+  .subsasdealerbtn:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid #d76258;
+    font-weight: 500;
+  }
+  
+  .subsasdealerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vehicleaddmaindiv {
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid rgb(196, 194, 194);
+    padding: 20px 20px;
+    box-shadow: 5px 10px 15px #888888;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+  }
+  
+  .packageselect {
+    display: flex;
+    width: 25%;
+    padding: 10px 10px;
+    color: white;
+    background-color: #42c366;
+    position: absolute;
+    top: 0px;
+    right: 55px;
+    border-radius: 0px 0px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    display: none;
+  }
+  
+  .packagecontainer-3:hover  .packageselect{
+    display: flex;
+  }
+  
+  .packagecontainer-2:hover  .packageselect{
+    display: flex;
+  }
+  
+  .packagecontainer-1:hover  .packageselect {
+    display: flex;
+  }
+  
+  .golive{
+    position: absolute;
+    top: -320px;
+    left:-681px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10px 10px;
+    color: #d76258;
+    border: 2px solid green;
+    box-shadow: 5px 8px 8px #d76258;
+  }
+  
+  #custom-switch{
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    /* background-color: green; */
+  
+  }
+  
+  .form-control{
+    padding: 15px;
+    border: none;
+    background-color: #efefef
+  }
+  
+  .profileimage{
+    width: 100%;
+  }
+  
+  .myprofilepic{
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 42%;
+  }
+  
+  #mymarker{
+    display: none;
+  }
+  
+  .profilecarimg{
+    width: 80%;
+  
+  }
+  
+  .modelvectors{
+    width: 15%;
+    margin-right: 5%;
+  
+  }
+  
+  .modelcontentsec{
+    display: flex;
+  }
+  
+  .modellowerdiv{
+    display: flex;
+  }
+  
+  .profilepict{
+  width: 60%;
+  margin-bottom: 30px;
+  }
+  
+  .modellowerdivright{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+  }
+  
+  .modelgreentag{
+    display: flex;
+    background-color: rgb(89, 245, 89);
+    height: 40px;
+    align-items: center;
+    padding: 8px 8px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px 10px;
+  }
+  
+  .modellowerdivleft{
+    width: 50%;
+  }
+  
+  .modelpdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modelbody{
+    cursor: pointer;
+  }
+  

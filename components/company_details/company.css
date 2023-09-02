@@ -1,0 +1,202 @@
+#specifyColor{
+    accent-color: #d76258;
+}
+
+.title{
+    color: #d76258;
+    text-align: center;
+    font-size: 30px;
+}
+
+.radiobuttons{
+    display: flex;
+    align-items: center;
+
+}
+
+#VehicalColor{
+    accent-color: #d76258 
+}
+.nice-select{
+   display: none;
+}
+
+.selectcars{
+    width: 60%;
+    padding: 10px;
+    background: #efefef;
+    border-radius: 5px;
+    border : 0px
+}
+.yearbrandselect{
+    display: flex;
+    align-items: center;
+}
+
+.selectbrand{
+    width: 100%;
+    padding: 10px;
+    background: #efefef;
+    border-radius: 5px; 
+    border : 0px
+}
+.modelprice{
+    display: flex;
+    align-items: center;
+}
+
+.feature{
+    background: #efefef;
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.titall{
+    background: #efefef;
+    border: 0px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+.add{
+    width: 17%;
+    background: #d76258;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -9px;
+    margin-right: 10px;
+}
+
+.addbutton{
+    justify-content: end;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: -34px;
+}
+
+.textarea{
+    border : 0px;
+    background : #efefef ;
+}
+
+.uploadimage{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.uploadicon{
+    color: #d76258;
+}
+
+.uploadtext{
+    font-size: 18px;
+    color: #d76258;
+}
+
+.mainmodel{
+    width: 60%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 3px solid #d76258;
+    border-radius: 18px;
+}
+
+.mapselect{
+        padding: 34px;
+        background: #efefef;
+        border-radius: 5px;
+        position: relative;
+}
+
+.locationimg{
+    height: 50px;
+}
+.text{
+    font-size: 16px;
+    color: #d76258;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    /* margin-top: -28px; */
+    background: forestgreen;
+    width: 30%;
+    padding: 10px 10px;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0px 0px 20px 20px;
+    top: 0px;
+    right: 10px;
+    border-radius: 0px 0px 20px 20px;
+    height: 31px;
+}
+
+.package{
+    width: 100%;
+    background: linear-gradient(90deg, #e62490 , #c8e3fa );
+    height: 105px;
+    border-radius: 45px 45px 45px 45px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pakagecon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.package2{
+    width: 100%;
+    background: linear-gradient(180deg, #f86f64 , #fd5392 );
+    height: 105px;
+    border-radius: 45px 45px 45px 45px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.package3{
+    width: 100%;
+    background: linear-gradient(180deg, #007cde, #01e9bd );
+    height: 105px;
+    border-radius: 45px 45px 45px 45px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.package4{
+    width: 100%;
+    background: linear-gradient(180deg, #ff849c, #ffce9f );
+    height: 105px;
+    border-radius: 45px 45px 45px 45px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.subbutn{
+    width: 30%;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: #d76258;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+}

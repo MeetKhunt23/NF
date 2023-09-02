@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+    padding: 50px;
+    border: 2px solid #d76258;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+
+}
+
+.address{
+    font-size: 20px;
+    font-weight: bold;
+}

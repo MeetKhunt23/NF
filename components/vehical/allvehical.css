@@ -1,0 +1,257 @@
+.upperheadermyvehicles{
+    display: flex;
+    margin-top: 10px;
+    border-bottom: 2px solid #d76258;   
+}
+
+.backbtn{
+width: 20%;
+font-size: 25px;
+color: #d76258;
+cursor: pointer;
+font-weight: 500;
+
+}
+
+.myvehiclesheader{
+    width: 80%;
+    font-size: 35px;
+    cursor: pointer;
+color: #d76258;
+font-weight: 500;
+text-align: center;
+margin-right: 15%;
+}
+
+.logoimgs{
+    width: 70px;
+    height: 70px;
+}
+
+.logoimgss{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logowithtext{
+    /* display: flex; */
+    width: 60%;
+    color: grey;
+    /* justify-content: center; */
+}
+
+.logowithtextcont{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 12%;
+}
+
+.logowithtextcontdown{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cont-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* line-height: 60px; */
+    justify-content: space-around;
+}
+
+.cont-2{
+    width: 40%;
+    border:2px solid rgb(189, 188, 188);
+    border-radius: 20px 20px;
+    margin-left: 5%;
+    margin-bottom: 22px;
+}
+
+.vehicleimg{
+    width: 380px;
+    height: 380px;
+}
+
+.crud-1{
+    width: 10%;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.crud-2{
+    width: 50%;
+    border: 2px solid grey;
+    background-color: rgb(138, 139, 139);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    justify-content: center;
+    margin-left: 50px;
+border-radius: 5px 5px;
+    cursor: pointer;
+}
+
+.crud-2:hover{
+color: rgb(85, 84, 84);
+background-color: white;
+border-radius: 20px 20px;
+
+}
+
+.basicpackage{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin-left: 35%;
+    background-color: #d76258;
+    border-radius:  0px 0px 20px 20px;
+    padding: 7px 0px;
+}
+
+.basicpackage > h4{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+    font-weight: 500;
+}
+
+.vehiclecont{
+    width: 60%;
+    margin-left: 20%;
+    /* border: 2px solid grey; */
+    box-shadow: 5px 10px 15px #888888;
+    border-radius: 20px 20px;
+    margin-top: 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+.modelname{
+    width: auto;
+    /* margin-left: 28%; */
+    border-bottom: 2px solid rgb(189, 188, 188);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.box{
+    width: 250px;
+}
+
+.featured{
+    background-color: #d76258;
+    border-radius: 20px 20px 0px 0px;
+    padding:10px 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+.addvehicle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 80vh;
+}
+
+.addvehicle h2{
+    border: 2px solid #d76258;
+    padding: 20px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #d76258;
+}
+
+.addvehicle h1:hover{
+    color: black;
+}
+
+.searchfield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input{
+    width: 60%;
+    background: #efefef;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.filtericon{
+    font-size: 25px;
+    position: absolute;
+    /* right: 229px; */
+    margin-left: 57%;
+}
+
+.selecttypecar{
+    width: 100%;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.brandmodel-select{
+    display: flex;
+    align-items: center;
+}
+
+.location{
+    width: 100%;
+    background: #efefef;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.location-icon{
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+    margin-top: 10px;
+}
+
+.ant-modal .ant-modal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.ant-modal .ant-modal-footer .ant-btn+.ant-btn{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #d76258;
+    background: #d76258;
+    
+}
+
+.ant-btn-default{
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    border: 1px solid #d76258 ;
+    
+}
+
+.ant-btn-default :hover{
+    color: #d76258;
+    border: #d76258;
+}

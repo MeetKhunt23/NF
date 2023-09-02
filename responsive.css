@@ -1,0 +1,591 @@
+@charset "utf-8";
+html,body { overflow-x: hidden; min-width: 0px;}
+
+/******************************************************************************
+  Max Width "1440x"
+*******************************************************************************/
+@media (max-width: 1440px) {
+  .home-sec-img img{
+    width: 100%;
+  }
+  .carousel-btn {
+    width: 20%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(37rem,-30px);
+}
+}
+
+
+
+/******************************************************************************
+  Max Width "1300x"
+*******************************************************************************/
+@media (max-width: 1300px) {
+   .download-btn h4 {
+    font-weight: normal;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .download-btn h3 {
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+  }
+  .carousel-btn {
+      width: 20%;
+      background-color: white;
+      border-radius: 35px;
+      box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+      -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+      -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+      position: absolute;
+      transform: translate(32rem,-30px);
+  }
+
+}
+  
+/******************************************************************************
+  Max Width "1200x"
+*******************************************************************************/
+@media (max-width: 1200px) {
+ 
+}
+
+/******************************************************************************
+  Min Width "992px"
+*******************************************************************************/
+@media (min-width: 992px) {
+ 
+}
+
+/******************************************************************************
+  Max Width "1270px" - Min Width "1200px"
+*******************************************************************************/
+@media (min-width: 1200px) and (max-width: 1270px) {
+ 
+}
+
+/******************************************************************************
+  Max Width "1199px"
+*******************************************************************************/
+@media (max-width: 1199px) {
+   .download-button a {
+    text-decoration: none !important;
+    color: white !important;
+    width: 100%;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+  .navbar-brand {
+      position: absolute;
+      transform: translate(50%, -18%);
+  }
+
+}
+
+
+/******************************************************************************
+  Max Width "1199px" - Min Width "992px"
+*******************************************************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+}
+/******************************************************************************
+  Max Width "1024px" 
+*******************************************************************************/
+
+@media (max-width: 1024px) {
+   .topbar-btn{
+    display: none !important;
+   }
+   .navbar-brand {
+      position: absolute;
+      transform: translate(50%, -18%);
+  }
+  .listing-home-sec .home-text h1 {
+      font-family: 'Mukta mahee';
+      font-size: 3rem;
+      text-align: center;
+      font-weight: 500;
+      color: white;
+  }
+  .carousel-btn {
+    width: 20%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(28rem,-30px);
+}
+}
+
+/******************************************************************************
+  Max Width "991px"
+*******************************************************************************/
+@media (max-width: 991px) {
+ .download-button a {
+    text-decoration: none !important;
+    color: white !important;
+    width: 100%;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .download-btn h4 {
+      font-weight: normal;
+      font-size: 1.5rem;
+      text-decoration: none;
+  }
+  .download-btn h3 {
+      font-weight: 600;
+      font-size: 1.2rem;
+      text-decoration: none;
+  }
+  .apple-icon {
+      font-size: 3rem;
+  }
+  .play-store-icon {
+      font-size: 3rem;
+  }
+  .navbar-brand-2 {
+      position: relative;
+      transform: none;
+  }
+  .navbar-collapse {
+    position: absolute;
+    background-color: white;
+    width: 71%;
+    /* margin-left: -35.8px; */
+    top: 100%;
+    padding: 2%;
+    z-index: 1;
+    box-shadow: 0px 0px 36px 0px rgb(34 96 182 / 13%);
+    -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 20%);
+    -moz-box-shadow: 0px 0px 36px 0px rgba(34,96,182,0.13);
+  }
+  .login-modal .modal-content {
+      background: white;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  .listing-home-sec .home-text h1 {
+    font-family: 'Mukta mahee';
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+  }
+  .listing-home-sec {
+   padding: 11%;
+  }
+  .listing-home-sec .home-text h2 {
+    font-family: 'Mukta mahee';
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+  }
+  .location-sec .map {
+    margin-bottom: 2%;
+    border: 2px solid #b9b9b9;
+  }
+  .carousel-btn {
+    width: 20%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(27rem,-30px);
+}
+}
+
+
+/******************************************************************************
+  Max Width "800px"
+*******************************************************************************/
+@media (max-width: 800px) {
+ .navbar-collapse {
+  position: absolute;
+  background-color: white;
+  width: 88%;
+  /* margin-left: -35.8px; */
+  top: 100%;
+  padding: 2%;
+  z-index: 1;
+  box-shadow: 0px 0px 4px 5px rgb(34 96 182 / 13%);
+  -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 13%);
+  -moz-box-shadow: 0px 0px 4px 5px rgba(34,96,182,0.13);
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1rem !important;
+  }
+  .carousel-btn {
+    width: 25%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(20rem,-30px);
+  }
+
+}
+/******************************************************************************
+  Max Width "768px"
+*******************************************************************************/
+@media (max-width: 768px) {
+    .navbar-collapse {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    /* margin-left: -35.8px; */
+    top: 100%;
+    padding: 2%;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 5px rgb(34 96 182 / 13%);
+    -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 13%);
+    -moz-box-shadow: 0px 0px 4px 5px rgba(34,96,182,0.13);
+    }
+  .listing-home-sec {
+    padding: 11%;
+    }
+    .property-detail-sec .home-text h1 {
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+}
+/******************************************************************************
+  Max Width "600px"
+*******************************************************************************/
+
+
+@media (max-width: 600px) {
+  .home-sec .home-text h1 {
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .search-btn {
+    background: #f6a400;
+    border-radius: 0.2rem;
+    border-color: #f6a400;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    height: 100%;
+  }
+  .navbar-collapse {
+    position: absolute;
+    background-color: white;
+    width: 85%;
+    /* margin-left: -35.8px; */
+    top: 100%;
+    padding: 2%;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 5px rgb(34 96 182 / 13%);
+    -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 13%);
+    -moz-box-shadow: 0px 0px 4px 5px rgba(34,96,182,0.13);
+  }
+  .listing-home-sec .home-text h1 {
+    font-family: 'Mukta mahee';
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+  }
+  .listing-home-sec {
+    padding: 11%;
+  }
+  .listing-home-sec .home-text h2 {
+    font-family: 'Mukta mahee';
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.carousel-btn {
+    width: 35%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(13rem,-30px);
+}
+}
+
+
+
+
+
+
+
+/******************************************************************************
+  Max Width "599px"
+*******************************************************************************/
+@media (max-width: 599px) {
+  .card-body h5{
+    font-size: 1.2rem;
+  }
+  .card-body p{
+    font-size: 1.1rem;
+  }
+  .home-sec{
+    padding: 2% ;
+  }
+  .property-sec{
+    padding: 2%;
+  }
+  .site-renter-sec{
+    padding: 2%;
+  }
+  .navbar-collapse {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    margin-left: -2%;
+    top: 100%;
+    padding: 2%;
+    z-index: 1;
+    box-shadow: 0px 0px 4px 5px rgb(34 96 182 / 13%);
+    -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 13%);
+    -moz-box-shadow: 0px 0px 4px 5px rgba(34,96,182,0.13);
+  }
+  .listing-home-sec {
+    padding: 11%;
+    }
+
+}
+/******************************************************************************
+  Max Width "540px"
+*******************************************************************************/
+@media (max-width: 540px) {
+  .card-body h5{
+    font-size: 1.2rem;
+  }
+  .card-body p{
+    font-size: 1.1rem;
+  }
+  .home-sec{
+    padding: 2% ;
+  }
+  .property-sec{
+    padding: 2%;
+  }
+  .site-renter-sec{
+    padding: 2%;
+  }
+  .navbar-collapse {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  margin-left: -2%;
+  top: 100%;
+  padding: 2%;
+  z-index: 1;
+  box-shadow: 0px 0px 4px 5px rgb(34 96 182 / 13%);
+  -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 13%);
+  -moz-box-shadow: 0px 0px 4px 5px rgba(34,96,182,0.13);
+  }
+ .listing-home-sec {
+  padding: 11%;
+  }
+  .carousel-btn {
+  width: 40%;
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+  -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+  position: absolute;
+  transform: translate(11rem,-30px);
+}
+
+}
+
+/******************************************************************************
+  Max Width "480px"
+*******************************************************************************/
+@media (max-width: 480px) {
+     .home-sec .home-text h1 {
+    font-family: 'Playfair Display';
+    font-size: 2.5rem;
+    font-weight: 400;
+    }
+    .search-btn {
+        background: #f6a400;
+        border-radius: 0.2rem;
+        border-color: #f6a400;
+        width: 100%;
+        padding: auto;
+        font-size: 1rem;
+        height: 100%;
+    }
+    .listing-home-sec .home-text h1 {
+        font-family: 'Mukta mahee';
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+      }
+      .listing-home-sec {
+        
+        padding: 11%;
+      }
+      .listing-home-sec .home-text h2 {
+        font-family: 'Mukta mahee';
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 400;
+        color: white;
+    }
+    .home-detail-text h1{
+      font-size: 1.5rem;
+    }
+    .home-detail-text p{
+      font-size: 0.8rem;
+    }
+    .home-detail {
+    border: 1.5px solid #2260b6;
+    border-radius: 5px;
+    padding: 0.5rem !important;
+    }
+    .home-detail-text-2 h1{
+      font-size: 1.5rem;
+    }
+    .home-detail-text-2 p{
+      font-size: 0.8rem;
+    }
+    .owner-name p {
+    font-size: 1rem;
+    }
+    .loaction-text h4 {
+    color: #2260b6;
+    font-weight: 100;
+    font-size: 1.4rem;
+    }
+    .carousel-btn {
+    width: 40%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(10rem,-30px);
+}
+
+ 
+
+}
+
+/******************************************************************************
+  Max Width "414px"
+*******************************************************************************/
+@media (max-width:414px) {
+ .carousel-btn {
+    width: 50%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(7rem,-30px);
+}
+}
+
+/******************************************************************************
+  Max Width "384px"
+*******************************************************************************/
+@media (max-width:384px) {
+  .listing-home-sec .home-text h1 {
+    font-family: 'Mukta mahee';
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+  }
+   .listing-home-sec .home-text h2 {
+    font-family: 'Mukta mahee';
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    }
+    .carousel-btn {
+    width: 50%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(6rem,-30px);
+}
+}
+
+/******************************************************************************
+  Max Width "375px"
+*******************************************************************************/
+@media (max-width: 375px)
+{
+  .carousel-btn {
+    width: 54%;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -webkit-box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 19%);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.19);
+    position: absolute;
+    transform: translate(5rem,-30px);
+}
+ 
+}
+/******************************************************************************
+  Max Width "360px"
+*******************************************************************************/
+@media (max-width: 360px) {
+  .navbar-brand-2 {
+    width: 80%;
+    margin-right: 0%;
+  }
+  .navbar-brand-2 img {
+      width: 80%;
+  }
+  .navbar-collapse {
+      position: absolute;
+      background-color: white;
+      width: 100%;
+      margin-left: -12px;
+      top: 100%;
+      padding: 2%;
+      z-index: 1;
+      box-shadow: 0px 0px 4px 5px rgb(34 96 182 / 13%);
+      -webkit-box-shadow: 0px 4px 5px 0px rgb(34 96 182 / 13%);
+      -moz-box-shadow: 0px 0px 4px 5px rgba(34,96,182,0.13);
+  }
+  .loaction-text h4 {
+    color: #2260b6;
+    font-weight: 100;
+    font-size: 1.2rem;
+  }
+}
+/******************************************************************************
+  Max Width "320px"
+*******************************************************************************/
+@media (max-width: 320px) {
+  
+}

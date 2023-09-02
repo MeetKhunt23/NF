@@ -1,0 +1,14 @@
+.screen{
+    margin-top: 50px;
+    text-align: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+
+}
+
+.address{
+    font-size: 20px;
+    font-weight: bold;
+}

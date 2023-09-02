@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* .button{
+   display: flex;
+   justify-content: space-evenly;
+} */
+.sign{
+    background: #42c366;
+    width: 30%;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.signup{
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid #42c366;
+    color: #42c366;
+    margin-left: 15px;
+}
+.logo-name{
+        font-size: 32px;
+        color: #42c366;
+}
